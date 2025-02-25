@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List with Progress</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <h3>Todo List</h3>
+
+        <div class="heading">
+
+            <div id="progress" class="progress">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+
+            <p id="numstat" class="shownum">0 / 0</p>
+
+
+        </div>
+
+        <form id="form" action="" method="">
+            <div class="form-group">
+                <input type="text" name="text" id="inputval" class="form-control" placeholder="write down your tasks..." autocomplete="off">
+
+                <button type="button" class="btn" id="btn">add</button>
+            </div>
+        </form>
+
+        <div id="list-group" class="list-group">
+        </div>
+
+    </div>
+    
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
